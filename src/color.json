@@ -1,15 +1,13 @@
-
 {
-    "core-colors": {
-      "primary-100": { "value": "#0B0B0B" }
+  "core-colors": {
+    "primary-100": { "value": "#0B0B0B" }
+  },
+  "color": {
+    "background": {
+      "primary-100": { "value": "{core-colors.primary-100}" }
     },
-    "color": {
-      "background": {
-        "primary-100": { "value": "{core-colors.primary-100}" }
-      },
-      "border": {
-        "primary-100": { "value": "{core-colors.primary-100}" }
-      }
+    "border": {
+      "primary-100": { "value": "{core-colors.primary-100}" }
     }
   }
-  
+}

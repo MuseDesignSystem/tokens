@@ -26,11 +26,22 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "eslint": "^8.19.0",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "param-case": "^3.0.4",
     "pinst": "^3.0.0",
+    "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "standard-version": "^9.5.0",
     "style-dictionary": "^3.7.1"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,json}": ["eslint . --fix", "prettier --write ."]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

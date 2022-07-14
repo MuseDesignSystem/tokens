@@ -9,7 +9,7 @@
     "circle": { "value": "100%" }
   },
   "width": {
-    "regular": {"value": "1px"},
-    "thick": {"value": "2px"}
+    "regular": { "value": "1px" },
+    "thick": { "value": "2px" }
   }
 }
