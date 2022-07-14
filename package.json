@@ -1,0 +1,23 @@
+{
+  "name": "@muse-design-system/tokens",
+  "version": "0.0.1-alpha",
+  "description": "Tokens for the Cisco Muse Design System",
+  "main": "dist/tokens.es6.js",
+  "repository": "https://wwwin-github.cisco.com/muse-design-system/tokens.git",
+  "author": "Muse Design System Team",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn clean && node build.js",
+    "clean": "rimraf \"dist\"",
+    "clean:dependencies": "rimraf \"node_modules\"",
+    "watch": "watch \"yarn build\" \"properties\""
+  },
+  "devDependencies": {
+    "param-case": "^3.0.4",
+    "rimraf": "^3.0.2",
+    "style-dictionary": "^3.7.1"
+  }
+}
