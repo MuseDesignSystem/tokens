@@ -1,6 +1,6 @@
 {
   "radius": {
-    "0": { "value": "0px" },
+    "none": { "value": "0px" },
     "xs": { "value": "4px" },
     "sm": { "value": "8px" },
     "md": { "value": "16px" },

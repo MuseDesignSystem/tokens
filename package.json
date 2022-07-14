@@ -6,18 +6,31 @@
   "repository": "https://wwwin-github.cisco.com/muse-design-system/tokens.git",
   "author": "Muse Design System Team",
   "license": "UNLICENSED",
+  "private": false,
   "files": [
     "dist"
   ],
   "scripts": {
     "build": "yarn clean && node build.js",
-    "clean": "rimraf \"dist\"",
     "clean:dependencies": "rimraf \"node_modules\"",
+    "clean": "rimraf \"dist\"",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release": "standard-version",
     "watch": "watch \"yarn build\" \"properties\""
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1",
     "param-case": "^3.0.4",
+    "pinst": "^3.0.0",
     "rimraf": "^3.0.2",
+    "standard-version": "^9.5.0",
     "style-dictionary": "^3.7.1"
   }
 }
