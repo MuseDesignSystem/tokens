@@ -1,0 +1,8 @@
+{
+  "background": {
+    "primary-500": {
+      "value": "{color.primary-500}",
+      "description": "The default background color for primary buttons, accompanied by white text foreground"
+    }
+  }
+}

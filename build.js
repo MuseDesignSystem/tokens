@@ -10,10 +10,10 @@ console.log(`\n==============================================`);
 // REGISTER THE CUSTOM TRANFORMS
 
 const getCssVariableName = (prop) => {
-  const { category, type, item } = prop.attributes;
+  const { category, type } = prop.attributes;
 
-  if (category === `color` || category === `shadow-size`) {
-    return `${prefix}-${category}-${type}-${item}`;
+  if (prop.type === `color` || category === `shadow-size`) {
+    return `${prefix}-${prop.type}-${category}-${type}`;
   } else {
     return `${prefix}-${category}-${type}`;
   }
@@ -50,7 +50,8 @@ StyleDictionary.registerTransform({
   type: `value`,
   matcher: (prop) => {
     return (
-      prop.attributes.category === `border-radius` ||
+      (prop.attributes.category === `border-radius` &&
+        prop.attributes.type !== 'circle') ||
       prop.attributes.category === `font-size` ||
       prop.attributes.category === `shadow-size` ||
       prop.attributes.category === `space`

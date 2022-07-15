@@ -1,0 +1,12 @@
+{
+  "line-height": {
+    "10": { "value": "16px" },
+    "20": { "value": "20px" },
+    "30": { "value": "24px" },
+    "40": { "value": "32px" },
+    "50": { "value": "40px" },
+    "60": { "value": "56px" },
+    "70": { "value": "64px" },
+    "80": { "value": "84px" }
+  }
+}
