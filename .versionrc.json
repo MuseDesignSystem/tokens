@@ -1,15 +1,14 @@
 {
-    "types": [
-      {"type": "feat", "section": "Features"},
-      {"type": "fix", "section": "Bug Fixes"},
-      {"type": "chore", "hidden": true},
-      {"type": "docs", "hidden": true},
-      {"type": "style", "hidden": true},
-      {"type": "refactor", "hidden": true},
-      {"type": "perf", "hidden": true},
-      {"type": "test", "hidden": true}
-    ],
-    "commitUrlFormat": "https://wwwin-github.cisco.com/muse-design-system/tokens/commits/{{hash}}",
-    "compareUrlFormat": "https://wwwin-github.cisco.com/muse-design-system/tokenscompare/{{previousTag}}...{{currentTag}}"
-  }
-  
+  "types": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "chore", "hidden": true },
+    { "type": "docs", "hidden": true },
+    { "type": "style", "hidden": true },
+    { "type": "refactor", "hidden": true },
+    { "type": "perf", "hidden": true },
+    { "type": "test", "hidden": true }
+  ],
+  "commitUrlFormat": "https://wwwin-github.cisco.com/muse-design-system/tokens/commits/{{hash}}",
+  "compareUrlFormat": "https://wwwin-github.cisco.com/muse-design-system/tokenscompare/{{previousTag}}...{{currentTag}}"
+}

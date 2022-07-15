@@ -13,7 +13,7 @@ yarn add @muse-design-system/tokens
 ### CSS
 
 ```css
-@import "@muse-design-system/tokens/dist/tokens.css";
+@import '@muse-design-system/tokens/dist/tokens.css';
 ```
 
 ## Contributing
