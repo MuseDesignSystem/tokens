@@ -1,0 +1,16 @@
+{
+  "elevation": {
+    "sm": {
+      "value": "0px 4px 16px 0px hsla(210, 11%, 96%, 0.7)",
+      "type": "shadow"
+    },
+    "md": {
+      "value": "0px 8px 32px 0px hsla(210, 11%, 96%, 0.10)",
+      "type": "shadow"
+    },
+    "lg": {
+      "value": "0px 12px 48px 0px  hsla(210, 11%, 96%, 0.10)",
+      "type": "shadow"
+    }
+  }
+}

@@ -5,85 +5,85 @@
       "description": "A vivid island blue, as seen in the Cisco Logo"
     },
 
-    "primary-100": {
+    "primary-10": {
       "value": "hsla(209, 78%, 94%, 1)",
       "description": "A desaturated blue, like a cloudy sky"
     },
-    "primary-200": {
+    "primary-20": {
       "value": "hsla(209, 88%, 90%, 1)",
       "description": "A desaturated blue, like a midday sky"
     },
-    "primary-300": {
+    "primary-30": {
       "value": "hsla(205, 70%, 83%, 1)",
       "description": "A desaturated blue, almost a blue-gray"
     },
-    "primary-400": {
+    "primary-40": {
       "value": "hsla(208, 100%, 41%, 1)",
       "description": "A rich and bright navy blue"
     },
-    "primary-500": {
+    "primary-50": {
       "value": "hsla(212, 100%, 34%, 1)",
       "description": "A vibrant colbalt"
     },
-    "primary-600": {
+    "primary-60": {
       "value": "hsla(216, 71%, 18%, 1)",
       "description": "A deep blue, referred to as Midnight at Cisco"
     },
-    "primary-700": {
+    "primary-70": {
       "value": "hsla(235, 100%, 11%, 1)",
       "description": "A deep, dark blue, almost black"
     },
 
-    "error-100": {
+    "error-10": {
       "value": "hsla(0, 76%, 90%, 1)",
       "description": "A desaturated red, almost pink"
     },
-    "error-400": {
+    "error-40": {
       "value": "hsla(3, 79%, 49%, 1)",
       "description": "A rich and vibrant red, like a stop light"
     },
-    "error-600": {
+    "error-60": {
       "value": "hsla(0, 73%, 29%, 1)",
       "description": "A deep, darker red, almost ruby"
     },
 
-    "caution-100": {
+    "caution-10": {
       "value": "hsla(36, 100%, 87%, 1)",
       "description": "A desaturated school-bus yellow"
     },
-    "caution-400": {
+    "caution-40": {
       "value": "hsla(39, 97%, 54%, 1)",
       "description": "A saturated & vivid school-bus yellow"
     },
-    "caution-600": {
+    "caution-60": {
       "value": "hsla(36, 63%, 35%, 1)",
       "description": "A dark, deep, almost brown yellow"
     },
 
-    "success-100": {
+    "success-10": {
       "value": "hsla(94, 50%, 26%, 1)",
       "description": "A desaturated green"
     },
-    "success-400": {
+    "success-40": {
       "value": "hsla(104, 100%, 32%, 1)",
       "description": "A saturated & vivid green"
     },
-    "success-600": {
+    "success-60": {
       "value": "hsla(108, 51%, 90%, 1)",
       "description": "A dark green"
     },
 
-    "gray-100": { "value": "hsla(210, 11%, 96%, 1)" },
-    "gray-200": { "value": "hsla(209, 4%, 90%, 1)" },
-    "gray-300": { "value": "hsla(0, 0%, 84%, 1)" },
-    "gray-400": { "value": "hsla(0, 0%, 56%, 1)" },
-    "gray-500": { "value": "hsla(212, 1%, 38%, 1)" },
-    "gray-600": { "value": "hsla(210, 4%, 11%, 1)" },
+    "gray-10": { "value": "hsla(210, 11%, 96%, 1)" },
+    "gray-20": { "value": "hsla(209, 4%, 90%, 1)" },
+    "gray-30": { "value": "hsla(0, 0%, 84%, 1)" },
+    "gray-40": { "value": "hsla(0, 0%, 56%, 1)" },
+    "gray-50": { "value": "hsla(212, 1%, 38%, 1)" },
+    "gray-60": { "value": "hsla(210, 4%, 11%, 1)" },
 
-    "white-alpha-15": { "value": "hsla(0,0, 100, 15%)" },
-    "white-alpha-25": { "value": "hsla(0,0, 100, 25%)" },
-    "white-alpha-50": { "value": "hsla(0,0, 100, 50%)" },
-    "white-alpha-85": { "value": "hsla(0,0, 100, 85%)" },
-    "white": { "value": "hsla(0,0, 100, 100%)" }
+    "white-alpha-15": { "value": "hsla(0,0, 100, 0.15)" },
+    "white-alpha-25": { "value": "hsla(0,0, 100, 0.25)" },
+    "white-alpha-50": { "value": "hsla(0,0, 100, 0.50)" },
+    "white-alpha-85": { "value": "hsla(0,0, 100, 0.85)" },
+    "white": { "value": "hsla(0,0, 100, 1)" }
   }
 }

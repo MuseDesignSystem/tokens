@@ -2,6 +2,6 @@
   "letter-spacing": {
     "tight": { "value": "-1" },
     "regular": { "value": "0" },
-    "spread": { "value": "0.2" }
+    "wide": { "value": "0.2" }
   }
 }

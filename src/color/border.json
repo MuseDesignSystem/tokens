@@ -1,17 +1,17 @@
 {
   "border": {
-    "gray-300": {
-      "value": "{color.gray-300}",
+    "default": {
+      "value": "{color.gray-30}",
       "description": "The default border color for inputs, dividers, and certain containers when on a white background",
       "type": "color"
     },
-    "primary-500": {
-      "value": "{color.primary-500}",
+    "focus": {
+      "value": "{color.primary-50}",
       "description": "Used for focus and hover states on inputs and certain buttons",
       "type": "color"
     },
-    "error-400": {
-      "value": "{color.error-400}",
+    "error": {
+      "value": "{color.error-40}",
       "description": "Used for inputs when an error is found",
       "type": "color"
     }

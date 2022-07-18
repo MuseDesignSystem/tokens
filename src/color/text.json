@@ -1,0 +1,19 @@
+{
+  "text": {
+    "body": {
+      "value": "{color.gray-60}",
+      "description": "Default value for all body copy on the regular theme",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{color.primary-50}",
+      "description": "Default value for all body copy on the regular theme",
+      "type": "color"
+    },
+    "link": {
+      "value": "{color.primary-40}",
+      "description": "Value for base link state",
+      "type": "color"
+    }
+  }
+}
