@@ -1,7 +1,7 @@
 {
   "letter-spacing": {
-    "tight": { "value": "-1" },
-    "regular": { "value": "0" },
-    "wide": { "value": "0.2" }
+    "tight": { "value": "-1", "type": "letterSpacing" },
+    "regular": { "value": "0", "type": "letterSpacing" },
+    "wide": { "value": "0.2", "type": "letterSpacing" }
   }
 }

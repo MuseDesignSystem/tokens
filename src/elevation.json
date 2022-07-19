@@ -1,16 +1,37 @@
 {
   "elevation": {
     "sm": {
-      "value": "0px 4px 16px 0px hsla(210, 11%, 96%, 0.7)",
-      "type": "shadow"
+      "value": {
+        "x": "0",
+        "y": "4",
+        "blur": "16",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.07)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     },
     "md": {
-      "value": "0px 8px 32px 0px hsla(210, 11%, 96%, 0.10)",
-      "type": "shadow"
+      "value": {
+        "x": "0",
+        "y": "8",
+        "blur": "32",
+        "spread": "0",
+        "color": "rgba(27, 28, 29, 0.1)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     },
     "lg": {
-      "value": "0px 12px 48px 0px  hsla(210, 11%, 96%, 0.10)",
-      "type": "shadow"
+      "value": {
+        "x": "0",
+        "y": "12",
+        "blur": "48",
+        "spread": "0",
+        "color": "rgba(27, 28, 29, 0.1)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   }
 }

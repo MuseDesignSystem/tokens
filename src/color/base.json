@@ -61,16 +61,16 @@
     },
 
     "success-10": {
-      "value": "hsla(94, 50%, 26%, 1)",
+      "value": "hsla(108, 51%, 90%, 1)",
       "description": "A desaturated green"
+    },
+    "success-60": {
+      "value": "hsla(94, 50%, 26%, 1)",
+      "description": "A dark green"
     },
     "success-40": {
       "value": "hsla(104, 100%, 32%, 1)",
       "description": "A saturated & vivid green"
-    },
-    "success-60": {
-      "value": "hsla(108, 51%, 90%, 1)",
-      "description": "A dark green"
     },
 
     "gray-10": { "value": "hsla(210, 11%, 96%, 1)" },

@@ -26,6 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "@divriots/style-dictionary-to-figma": "^0.2.1",
     "@typescript-eslint/parser": "^5.30.6",
     "eslint": "^8.19.0",
     "husky": "^8.0.1",

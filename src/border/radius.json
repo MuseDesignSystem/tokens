@@ -1,11 +1,11 @@
 {
   "border-radius": {
-    "0": { "value": "0" },
-    "10": { "value": "0.4" },
-    "20": { "value": "0.8" },
-    "30": { "value": "1.6" },
-    "40": { "value": "2.4" },
-    "50": { "value": "4.8" },
-    "circle": { "value": "100%" }
+    "0": { "value": "0", "type": "borderRadius" },
+    "10": { "value": "0.4", "type": "borderRadius" },
+    "20": { "value": "0.8", "type": "borderRadius" },
+    "30": { "value": "1.6", "type": "borderRadius" },
+    "40": { "value": "2.4", "type": "borderRadius" },
+    "50": { "value": "4.8", "type": "borderRadius" },
+    "circle": { "value": "100%", "type": "borderRadius" }
   }
 }

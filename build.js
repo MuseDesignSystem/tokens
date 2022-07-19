@@ -20,6 +20,20 @@ const getCssVariableName = (prop) => {
 };
 
 StyleDictionary.registerTransform({
+  name: 'shadows',
+  type: 'value',
+  matcher: function (prop) {
+    return prop.attributes.category === 'elevation';
+  },
+  transformer: function (prop) {
+    // destructure shadow values from original token value
+    const { x, y, blur, spread, color } = prop.original.value;
+
+    return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
+  },
+});
+
+StyleDictionary.registerTransform({
   name: `name/cti/customProperty`,
   type: `name`,
   transformer: (prop) => {
@@ -53,7 +67,6 @@ StyleDictionary.registerTransform({
       (prop.attributes.category === `border-radius` &&
         prop.attributes.type !== 'circle') ||
       prop.attributes.category === `font-size` ||
-      prop.attributes.category === `shadow-size` ||
       prop.attributes.category === `space`
     );
   },
@@ -93,7 +106,13 @@ StyleDictionary.registerTransform({
 // if you want to see what a pre-defined group contains, uncomment the next line:
 // console.log(StyleDictionary.transformGroup['group_name']);
 
-const cssTransforms = [`time/seconds`, `size/rem`, `size/em`, `color/css`];
+const cssTransforms = [
+  `time/seconds`,
+  `size/rem`,
+  `size/em`,
+  `color/css`,
+  `shadows`,
+];
 
 StyleDictionary.registerTransformGroup({
   name: `custom/css`,

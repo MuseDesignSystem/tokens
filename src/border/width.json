@@ -1,6 +1,6 @@
 {
   "border-width": {
-    "regular": { "value": "1px" },
-    "thick": { "value": "2px" }
+    "regular": { "value": "1px", "type": "borderWidth" },
+    "thick": { "value": "2px", "type": "borderWidth" }
   }
 }
