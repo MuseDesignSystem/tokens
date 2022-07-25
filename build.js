@@ -64,9 +64,8 @@ StyleDictionary.registerTransform({
   type: `value`,
   matcher: (prop) => {
     return (
-      (prop.attributes.category === `border-radius` &&
-        prop.attributes.type !== 'circle') ||
       prop.attributes.category === `font-size` ||
+      prop.attributes.category === `line-height` ||
       prop.attributes.category === `space`
     );
   },

@@ -5,14 +5,30 @@
       "description": "Default value for all body copy on the regular theme",
       "type": "color"
     },
-    "muted": {
-      "value": "{color.primary-50}",
-      "description": "Default value for all body copy on the regular theme",
+    "body-high-emphasis": {
+      "value": "{color.white}",
+      "description": "Default value for all body copy on high emphasis backgrounds",
       "type": "color"
     },
+    "body-lighter": {
+      "value": "{color.gray-50}",
+      "description": "Slightly lighter body copy used for de-emphasized elements",
+      "type": "color"
+    },
+
     "link": {
-      "value": "{color.primary-40}",
+      "value": "{color.primary-20}",
       "description": "Value for base link state",
+      "type": "color"
+    },
+    "link--hover": {
+      "value": "{color.white}",
+      "description": "Value for base link hover state",
+      "type": "color"
+    },
+    "link-high-emphasis--hover": {
+      "value": "{color.gray-10}",
+      "description": "Text hover state when the link is on a high emphasis background",
       "type": "color"
     }
   }

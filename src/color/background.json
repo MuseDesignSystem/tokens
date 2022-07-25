@@ -6,17 +6,17 @@
       "type": "color"
     },
     "emphasis-low": {
-      "value": "{color.primary-30}",
+      "value": "{color.gray-10}",
       "description": "The default background color low-emphasis content, used to subtley call out areas like a card or a banner",
       "type": "color"
     },
     "emphasis-high": {
-      "value": "{color.primary-60}",
+      "value": "{color.primary-40}",
       "description": "The default background color for high-emphasis content, accompanied by a white text foreground",
       "type": "color"
     },
     "primary": {
-      "value": "{color.primary-50}",
+      "value": "{color.primary-20}",
       "description": "The default background color for primary buttons, accompanied by white text foreground",
       "type": "color"
     }

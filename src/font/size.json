@@ -6,8 +6,8 @@
     "40": { "value": "2.0", "type": "fontSizes" },
     "50": { "value": "2.4", "type": "fontSizes" },
     "60": { "value": "3.2", "type": "fontSizes" },
-    "70": { "value": "4.8", "type": "fontSizes" },
-    "80": { "value": "5.6", "type": "fontSizes" },
-    "90": { "value": "7.2", "type": "fontSizes" }
+    "70": { "value": "4.0", "type": "fontSizes" },
+    "80": { "value": "5.2", "type": "fontSizes" },
+    "90": { "value": "6.4", "type": "fontSizes" }
   }
 }

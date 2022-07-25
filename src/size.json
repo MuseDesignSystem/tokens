@@ -1,0 +1,18 @@
+{
+  "base": {
+    "root-rem-unit": {
+      "value": "10px"
+    }
+  },
+  "size-container": {
+    "xs": { "value": "450px", "type": "sizing" },
+    "sm": { "value": "750px", "type": "sizing" },
+    "md": { "value": "1200px", "type": "sizing" },
+    "lg": { "value": "1340px", "type": "sizing" }
+  },
+  "size-breakpoints": {
+    "sm": { "value": "600px", "type": "breakpoints" },
+    "md": { "value": "1024px", "type": "breakpoints" },
+    "lg": { "value": "1440px", "type": "breakpoints" }
+  }
+}

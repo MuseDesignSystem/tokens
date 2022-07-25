@@ -44,7 +44,7 @@ module.exports = {
       ],
     },
     figma: {
-      transformGroup: 'js',
+      transformGroup: 'custom/json',
       buildPath: 'dist/web/',
       files: [
         {

@@ -1,6 +1,6 @@
 {
   "font-family": {
     "default": { "value": "CiscoSans Light", "type": "fontFamilies" },
-    "bold": { "value": "CiscoSans Regular", "type": "fontFamilies" }
+    "bold": { "value": "CiscoSans Medium", "type": "fontFamilies" }
   }
 }
