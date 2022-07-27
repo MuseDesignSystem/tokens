@@ -22,12 +22,17 @@
       "type": "color"
     },
     "link--hover": {
-      "value": "{color.white}",
+      "value": "{color.primary-30}",
       "description": "Value for base link hover state",
       "type": "color"
     },
+    "link-high-emphasis": {
+      "value": "{color.white}",
+      "description": "Text color when the link is on a high emphasis background",
+      "type": "color"
+    },
     "link-high-emphasis--hover": {
-      "value": "{color.gray-10}",
+      "value": "{color.gray-20}",
       "description": "Text hover state when the link is on a high emphasis background",
       "type": "color"
     }
