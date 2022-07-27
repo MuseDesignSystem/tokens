@@ -1,6 +1,6 @@
 {
   "name": "@muse-design-system/tokens",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tokens for the Cisco Muse Design System",
   "main": "dist/tokens.es6.js",
   "repository": "https://wwwin-github.cisco.com/muse-design-system/tokens.git",
