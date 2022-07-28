@@ -3,9 +3,8 @@
     "0": { "value": "0", "type": "borderRadius" },
     "10": { "value": "4px", "type": "borderRadius" },
     "20": { "value": "8px", "type": "borderRadius" },
-    "30": { "value": "16px", "type": "borderRadius" },
-    "40": { "value": "24px", "type": "borderRadius" },
-    "50": { "value": "48px", "type": "borderRadius" },
+    "30": { "value": "24px", "type": "borderRadius" },
+    "40": { "value": "48px", "type": "borderRadius" },
     "circle": { "value": "100%", "type": "borderRadius" }
   }
 }
