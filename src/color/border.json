@@ -30,6 +30,11 @@
       "description": "White, at fifty percent opacity, to be used on high-emphasis (dark) backgrounds",
       "type": "color"
     },
+    "strongest-emphasis-high": { "value": "{color.white}", "type": "color" },
+    "strongest-emphasis-high--hover": {
+      "value": "{color.gray-20}",
+      "type": "color"
+    },
     "focus": {
       "value": "{color.primary-20}",
       "description": "Used for focus and hover states on inputs and certain buttons",
