@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Tokens for the Cisco Muse Design System",
   "main": "dist/tokens.es6.js",
-  "repository": "https://wwwin-github.cisco.com/muse-design-system/tokens.git",
+  "repository": "https://github.com/MuseDesignSystem/tokens.git",
   "author": "Muse Design System Team",
   "license": "UNLICENSED",
   "private": false,
