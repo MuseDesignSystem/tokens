@@ -1,5 +1,5 @@
 {
-  "name": "@muse-design-system/tokens",
+  "name": "@MuseDesignSystem/tokens",
   "version": "1.0.0",
   "description": "Tokens for the Cisco Muse Design System",
   "main": "dist/tokens.es6.js",
