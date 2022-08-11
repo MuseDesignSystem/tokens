@@ -9,11 +9,11 @@ console.log(`\n==============================================`);
 
 // REGISTER THE CUSTOM TRANFORMS
 
-const getCssVariableName = (prop) => {
-  const { category, type } = prop.attributes;
+const getCssVariableName = (token) => {
+  const { category, type } = token.attributes;
 
-  if (prop.type === `color` || category === `shadow-size`) {
-    return `${prefix}-${prop.type}-${category}-${type}`;
+  if (token.type === 'color' && category !== 'color') {
+    return `${prefix}-${token.type}-${category}-${type}`;
   } else {
     return `${prefix}-${category}-${type}`;
   }
@@ -22,12 +22,12 @@ const getCssVariableName = (prop) => {
 StyleDictionary.registerTransform({
   name: 'shadows',
   type: 'value',
-  matcher: function (prop) {
-    return prop.attributes.category === 'elevation';
+  matcher: function (token) {
+    return token.attributes.category === 'elevation';
   },
-  transformer: function (prop) {
+  transformer: function (token) {
     // destructure shadow values from original token value
-    const { x, y, blur, spread, color } = prop.original.value;
+    const { x, y, blur, spread, color } = token.value;
 
     return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
   },
@@ -36,17 +36,17 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerTransform({
   name: `name/cti/customProperty`,
   type: `name`,
-  transformer: (prop) => {
-    return `${getCssVariableName(prop)}`;
+  transformer: (token) => {
+    return `${getCssVariableName(token)}`;
   },
 });
 
 StyleDictionary.registerTransform({
   name: `attribute/readableCustomProperty`,
   type: `attribute`,
-  transformer: (prop) => {
+  transformer: (token) => {
     return {
-      customPropertyName: getCssVariableName(prop),
+      customPropertyName: getCssVariableName(token),
     };
   },
 });
@@ -54,49 +54,53 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerTransform({
   name: `name/cti/kebabCustom`,
   type: `name`,
-  transformer: (prop, options) => {
-    return paramCase([options.prefix].concat(prop.path).join(` `));
+  transformer: (token, options) => {
+    return paramCase([options.prefix].concat(token.path).join(` `));
   },
 });
 
 StyleDictionary.registerTransform({
   name: `size/rem`,
   type: `value`,
-  matcher: (prop) => {
+  matcher: (token) => {
     return (
-      prop.attributes.category === `font-size` ||
-      prop.attributes.category === `line-height` ||
-      prop.attributes.category === `space`
+      token.type === `font-size` ||
+      token.type === `line-height` ||
+      token.type === `space`
     );
   },
-  transformer: (prop) => {
-    return `${prop.value}rem`;
+  transformer: (token) => {
+    return `${token.value}rem`;
   },
 });
 
 StyleDictionary.registerTransform({
   name: `size/em`,
   type: `value`,
-  matcher: (prop) => {
-    return prop.attributes.category === `letter-spacing`;
+  matcher: (token) => {
+    return token.type === `letter-spacing`;
   },
-  transformer: (prop) => {
-    return `${prop.value}em`;
+  transformer: (token) => {
+    return `${token.value}em`;
   },
 });
 
+// Grabbed from the Style Dictionary transforms, modified to also grab spacing and other rem values we use.
 StyleDictionary.registerTransform({
-  name: `time/seconds`,
-  type: `value`,
-  matcher: (prop) => {
-    return (
-      prop.attributes.category === `animation-delay` ||
-      prop.attributes.category === `animation-duration` ||
-      prop.attributes.category === `transition-duration`
-    );
+  name: 'custom/pxToRem',
+  type: 'value',
+  matcher: (token) => {
+    return token.attributes?.['unit'] === 'rem';
   },
-  transformer: (prop) => {
-    return (parseInt(prop.original.value) / 1000).toString() + `s`;
+  transformer: (token) => {
+    const baseFont = 10;
+    const floatVal = parseFloat(token.value);
+
+    if (floatVal === 0) {
+      return '0';
+    }
+
+    return `${floatVal / baseFont}rem`;
   },
 });
 
@@ -106,11 +110,10 @@ StyleDictionary.registerTransform({
 // console.log(StyleDictionary.transformGroup['group_name']);
 
 const cssTransforms = [
-  `time/seconds`,
-  `size/rem`,
-  `size/em`,
   `color/css`,
   `shadows`,
+  'custom/pxToRem',
+  // `attributeSizeTransform`,
 ];
 
 StyleDictionary.registerTransformGroup({

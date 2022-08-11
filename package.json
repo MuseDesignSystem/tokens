@@ -17,7 +17,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "yarn clean && node build.js",
+    "build": "npm run clean && npm run token-transform && node build.js",
     "clean:dependencies": "rimraf \"node_modules\"",
     "clean": "rimraf \"dist\"",
     "postinstall": "husky install",
@@ -27,7 +27,8 @@
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
     "release": "standard-version",
-    "watch": "watch \"yarn build\" \"properties\""
+    "token-transform": "npx token-transformer src/figma-token-source.json src/style-dictionary-ready.json --resolveReferences=math",
+    "watch": "watch \"npm build\" \"properties\""
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
@@ -43,6 +44,7 @@
     "rimraf": "^3.0.2",
     "standard-version": "^9.5.0",
     "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.24",
     "typescript": "^4.7.4"
   },
   "lint-staged": {

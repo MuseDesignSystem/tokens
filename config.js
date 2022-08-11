@@ -1,14 +1,7 @@
 /* eslint-disable sort-keys */
-const { transform } = require('@divriots/style-dictionary-to-figma');
 
 module.exports = {
-  source: [`src/**/*.json`],
-  format: {
-    figmaTokensPlugin: ({ dictionary }) => {
-      const transformedTokens = transform(dictionary.tokens);
-      return JSON.stringify(transformedTokens, null, 2);
-    },
-  },
+  source: [`src/style-dictionary-ready.json`],
   platforms: {
     css: {
       transformGroup: `custom/css`,
@@ -19,6 +12,7 @@ module.exports = {
           format: `css/variables`,
           options: {
             outputReferences: true,
+            basePxFontSize: 10,
           },
         },
       ],
@@ -43,16 +37,6 @@ module.exports = {
         },
       ],
     },
-    figma: {
-      transformGroup: 'custom/json',
-      buildPath: 'dist/web/',
-      files: [
-        {
-          destination: 'figma-tokens.json',
-          format: 'figmaTokensPlugin',
-        },
-      ],
-    },
     scss: {
       transformGroup: `custom/scss`,
       buildPath: `dist/web/`,
@@ -62,6 +46,7 @@ module.exports = {
           format: `scss/variables`,
           options: {
             outputReferences: true,
+            basePxFontSize: 10,
           },
         },
       ],
