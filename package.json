@@ -20,7 +20,7 @@
     "build": "npm run clean && npm run token-transform && node build.js",
     "clean:dependencies": "rimraf \"node_modules\"",
     "clean": "rimraf \"dist\"",
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "release:major": "standard-version --release-as major",
