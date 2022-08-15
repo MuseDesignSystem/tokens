@@ -5,7 +5,7 @@ module.exports = {
   platforms: {
     css: {
       transformGroup: `custom/css`,
-      buildPath: `dist/web/`,
+      buildPath: `dist/`,
       files: [
         {
           destination: `tokens.css`,
@@ -19,7 +19,7 @@ module.exports = {
     },
     es6: {
       transformGroup: `custom/es6`,
-      buildPath: `dist/web/`,
+      buildPath: `dist/`,
       files: [
         {
           destination: `tokens.js`,
@@ -29,7 +29,7 @@ module.exports = {
     },
     json: {
       transformGroup: `custom/json`,
-      buildPath: `dist/web/`,
+      buildPath: `dist/`,
       files: [
         {
           destination: `tokens.json`,
@@ -39,7 +39,7 @@ module.exports = {
     },
     scss: {
       transformGroup: `custom/scss`,
-      buildPath: `dist/web/`,
+      buildPath: `dist/`,
       files: [
         {
           destination: `tokens.scss`,

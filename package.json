@@ -2,7 +2,7 @@
   "name": "@musedesignsystem/tokens",
   "version": "2.0.1-beta",
   "description": "Tokens for the Cisco Muse Design System",
-  "main": "dist/tokens.es6.js",
+  "main": "dist/tokens.js",
   "repository": {
     "url": "https://github.com/MuseDesignSystem/tokens",
     "type": "git"

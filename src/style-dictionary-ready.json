@@ -1,4 +1,8 @@
 {
+  "current-version": {
+    "value": "2.0.1-beta",
+    "type": "other"
+  },
   "root": {
     "rem-size": {
       "value": 10,
