@@ -856,6 +856,10 @@
         "type": "color",
         "value": "{color.gray-50}"
       },
+      "default-lightest": {
+        "value": "{color.gray-40}",
+        "type": "color"
+      },
       "inverse": {
         "type": "color",
         "value": "{color.white}"
@@ -877,5 +881,11 @@
         "value": "{color.purple-10}"
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "muse-core"
+    ]
   }
 }
