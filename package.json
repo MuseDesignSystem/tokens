@@ -14,7 +14,7 @@
   "license": "UNLICENSED",
   "private": false,
   "scripts": {
-    "build": "npm run clean && npm run token-transform && node build.js",
+    "build": "npm run clean && npm run token-transform && node scripts/build.js",
     "clean:dependencies": "rimraf \"node_modules\"",
     "clean": "rimraf \"dist\"",
     "prepare": "husky install",

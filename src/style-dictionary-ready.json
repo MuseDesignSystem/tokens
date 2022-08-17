@@ -1,4 +1,10 @@
 {
+  "tokenSetOrder": {
+    "0": {
+      "value": "muse-core",
+      "type": "other"
+    }
+  },
   "current-version": {
     "value": "2.0.1-beta",
     "type": "other"
@@ -854,6 +860,10 @@
     "default-lighter": {
       "type": "color",
       "value": "{color.gray-50}"
+    },
+    "default-lightest": {
+      "value": "{color.gray-40}",
+      "type": "color"
     },
     "inverse": {
       "type": "color",
