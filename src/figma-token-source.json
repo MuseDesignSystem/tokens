@@ -884,8 +884,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "muse-core"
-    ]
+    "tokenSetOrder": ["muse-core"]
   }
 }
