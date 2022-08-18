@@ -1,7 +1,7 @@
 {
   "muse-core": {
     "current-version": {
-      "value": "2.0.1-beta",
+      "value": "2.1.5-beta",
       "type": "other"
     },
     "root": {
@@ -764,6 +764,10 @@
         "type": "color",
         "value": "{color.blue-40}"
       },
+      "emphasis-darker": {
+        "value": "{color.blue-50}",
+        "type": "color"
+      },
       "neutral": {
         "type": "color",
         "value": "{color.white}"
@@ -789,6 +793,10 @@
       "accent": {
         "type": "color",
         "value": "{color.blue-20}"
+      },
+      "accent-lighter": {
+        "value": "{color.blue-10}",
+        "type": "color"
       },
       "accent-darker": {
         "type": "color",
@@ -835,6 +843,10 @@
       "accent": {
         "type": "color",
         "value": "{color.blue-20}"
+      },
+      "accent-lighter": {
+        "value": "{color.blue-10}",
+        "type": "color"
       },
       "accent-darker": {
         "type": "color",
@@ -884,6 +896,8 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["muse-core"]
+    "tokenSetOrder": [
+      "muse-core"
+    ]
   }
 }
