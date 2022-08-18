@@ -132,6 +132,11 @@ StyleDictionary.registerTransformGroup({
 });
 
 StyleDictionary.registerTransformGroup({
+  name: `custom/jsModule`,
+  transforms: ['custom/pxToRem'],
+});
+
+StyleDictionary.registerTransformGroup({
   name: `custom/json`,
   transforms: [`attribute/cti`, `name/cti/customProperty`, ...cssTransforms],
 });

@@ -28,7 +28,7 @@ module.exports = {
       ],
     },
     jsModule: {
-      transformGroup: `js`,
+      transformGroup: `custom/jsModule`,
       buildPath: `dist/`,
       files: [
         {
