@@ -1,11 +1,15 @@
 # Muse Design System Tokens
 
-@muse-design-system/tokens
+@musedesignsystem/tokens
 
 ## Install
 
 ```sh
-yarn add @muse-design-system/tokens
+npm install @musedesignsystem/tokens
+```
+
+```sh
+yarn add @musedesignsystem/tokens
 ```
 
 ## Usage
@@ -13,15 +17,17 @@ yarn add @muse-design-system/tokens
 ### CSS
 
 ```css
-@import '@muse-design-system/tokens/dist/tokens.css';
+@import '@musedesignsystem/tokens/dist/tokens.css';
 ```
 
-## Contributing
+### SCSS
 
-### Submitting Issues
+```css
+@import '@musedesignsystem/tokens/dist/tokens.scss';
+```
 
-todo: write this out
+### JS
 
-### Submitting Feature Requests
-
-todo: write this out
+```css
+@import '@musedesignsystem/tokens';
+```
