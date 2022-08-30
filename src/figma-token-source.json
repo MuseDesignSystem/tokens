@@ -892,6 +892,60 @@
         "type": "color",
         "value": "{color.purple-10}"
       }
+    },
+    "size-10": {
+      "value": {
+        "fontSize": "{font-size.10}"
+      },
+      "type": "typography"
+    },
+    "size-20": {
+      "value": {
+        "fontSize": "{font-size.20}"
+      },
+      "type": "typography"
+    },
+    "size-30": {
+      "value": {
+        "fontSize": "{font-size.30}"
+      },
+      "type": "typography"
+    },
+    "size-40": {
+      "value": {
+        "fontSize": "{font-size.40}"
+      },
+      "type": "typography"
+    },
+    "size-50": {
+      "value": {
+        "fontSize": "{font-size.50}"
+      },
+      "type": "typography"
+    },
+    "size-60": {
+      "value": {
+        "fontSize": "{font-size.60}"
+      },
+      "type": "typography"
+    },
+    "size-70": {
+      "value": {
+        "fontSize": "{font-size.70}"
+      },
+      "type": "typography"
+    },
+    "size-80": {
+      "value": {
+        "fontSize": "{font-size.80}"
+      },
+      "type": "typography"
+    },
+    "size-90": {
+      "value": {
+        "fontSize": "{font-size.90}"
+      },
+      "type": "typography"
     }
   },
   "$themes": [],
