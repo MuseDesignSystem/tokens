@@ -24,7 +24,7 @@
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
     "release": "standard-version",
-    "token-transform": "npx token-transformer src/figma-token-source.json src/style-dictionary-ready.json --resolveReferences=math",
+    "token-transform": "npx token-transformer src/figma-token-source.json src/style-dictionary-ready.json --resolveReferences=math --expandTypography",
     "watch": "watch \"npm build\" \"properties\""
   },
   "devDependencies": {
