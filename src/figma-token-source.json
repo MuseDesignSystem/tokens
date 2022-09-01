@@ -1,7 +1,7 @@
 {
   "muse-core": {
     "current-version": {
-      "value": "2.1.5-beta",
+      "value": "2.1.7-beta",
       "type": "other"
     },
     "root": {
@@ -763,13 +763,17 @@
         "type": "color",
         "value": "{color.white}"
       },
-      "neutral-darker": {
+      "neutral-dark": {
         "type": "color",
         "value": "{color.gray-10}"
       },
-      "neutral-darkest": {
+      "neutral-darker": {
         "type": "color",
         "value": "{color.gray-20}"
+      },
+      "neutral-darkest": {
+        "type": "color",
+        "value": "{color.gray-40}"
       },
       "error": {
         "type": "color",
