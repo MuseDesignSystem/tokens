@@ -464,7 +464,6 @@
         "value": "{root.rem-size} * 1.2",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       },
@@ -472,7 +471,6 @@
         "value": "{root.rem-size} * 1.4",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       },
@@ -480,7 +478,6 @@
         "value": "{root.rem-size} * 1.6",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       },
@@ -488,7 +485,6 @@
         "value": "{root.rem-size} * 2.0",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       },
@@ -496,7 +492,6 @@
         "value": "{root.rem-size} * 2.4",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       },
@@ -504,7 +499,6 @@
         "value": "{root.rem-size} * 3.2",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       },
@@ -512,7 +506,6 @@
         "value": "{root.rem-size} * 4.0",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       },
@@ -520,7 +513,6 @@
         "value": "{root.rem-size} * 5.2",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       },
@@ -528,7 +520,6 @@
         "value": "{root.rem-size} * 6.4",
         "type": "fontSizes",
         "attributes": {
-          "category": "fontSize",
           "unit": "rem"
         }
       }
@@ -893,65 +884,65 @@
         "value": "{color.purple-10}"
       }
     },
-    "size-10": {
-      "value": {
-        "fontSize": "{font-size.10}"
+    "composite-type": {
+      "size-10": {
+        "value": {
+          "fontSize": "{font-size.10}"
+        },
+        "type": "typography"
       },
-      "type": "typography"
-    },
-    "size-20": {
-      "value": {
-        "fontSize": "{font-size.20}"
+      "size-20": {
+        "value": {
+          "fontSize": "{font-size.20}"
+        },
+        "type": "typography"
       },
-      "type": "typography"
-    },
-    "size-30": {
-      "value": {
-        "fontSize": "{font-size.30}"
+      "size-30": {
+        "value": {
+          "fontSize": "{font-size.30}"
+        },
+        "type": "typography"
       },
-      "type": "typography"
-    },
-    "size-40": {
-      "value": {
-        "fontSize": "{font-size.40}"
+      "size-40": {
+        "value": {
+          "fontSize": "{font-size.40}"
+        },
+        "type": "typography"
       },
-      "type": "typography"
-    },
-    "size-50": {
-      "value": {
-        "fontSize": "{font-size.50}"
+      "size-50": {
+        "value": {
+          "fontSize": "{font-size.50}"
+        },
+        "type": "typography"
       },
-      "type": "typography"
-    },
-    "size-60": {
-      "value": {
-        "fontSize": "{font-size.60}"
+      "size-60": {
+        "value": {
+          "fontSize": "{font-size.60}"
+        },
+        "type": "typography"
       },
-      "type": "typography"
-    },
-    "size-70": {
-      "value": {
-        "fontSize": "{font-size.70}"
+      "size-70": {
+        "value": {
+          "fontSize": "{font-size.70}"
+        },
+        "type": "typography"
       },
-      "type": "typography"
-    },
-    "size-80": {
-      "value": {
-        "fontSize": "{font-size.80}"
+      "size-80": {
+        "value": {
+          "fontSize": "{font-size.80}"
+        },
+        "type": "typography"
       },
-      "type": "typography"
-    },
-    "size-90": {
-      "value": {
-        "fontSize": "{font-size.90}"
-      },
-      "type": "typography"
+      "size-90": {
+        "value": {
+          "fontSize": "{font-size.90}"
+        },
+        "type": "typography"
+      }
     }
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "muse-core"
-    ]
+    "tokenSetOrder": ["muse-core"]
   }
 }
