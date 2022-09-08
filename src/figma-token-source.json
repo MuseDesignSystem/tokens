@@ -658,35 +658,42 @@
     "grid": {
       "total-columns": {
         "value": "12",
-        "type": "other"
+        "type": "other",
+        "description": "Attention Figma users: use Layout Grid Styles, not these token values"
       }
     },
     "grid-margin": {
       "xs": {
         "value": "{size.50}",
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Attention Figma users: use Layout Grid Styles, not these token values"
       },
       "sm": {
         "value": "{size.120}",
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Attention Figma users: use Layout Grid Styles, not these token values"
       },
       "md": {
         "value": "{size.160}",
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Attention Figma users: use Layout Grid Styles, not these token values"
       },
       "lg": {
         "value": "{size.170}",
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Attention Figma users: use Layout Grid Styles, not these token values"
       }
     },
     "grid-gap": {
       "tight": {
         "value": "{space.60}",
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Attention Figma users: use Layout Grid Styles, not these token values"
       },
       "normal": {
         "value": "{size.70}",
-        "type": "sizing"
+        "type": "sizing",
+        "description": "Attention Figma users: use Layout Grid Styles, not these token values"
       }
     },
     "color": {
