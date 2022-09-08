@@ -426,18 +426,10 @@
     },
     "font-family": {
       "default": {
-        "value": "CiscoSans Light",
-        "type": "fontFamilies"
-      },
-      "bold": {
-        "value": "CiscoSans Medium",
-        "type": "fontFamilies"
-      },
-      "default-TT": {
         "value": "CiscoSansTT Light",
         "type": "fontFamilies"
       },
-      "bold-TT": {
+      "bold": {
         "value": "CiscoSansTT Medium",
         "type": "fontFamilies"
       }
@@ -471,35 +463,33 @@
         "value": "700",
         "type": "fontWeights"
       },
-      "CiscoSansTT": {
-        "Thin": {
-          "value": "Thin",
-          "type": "fontWeights"
-        },
-        "Extra Light": {
-          "value": "ExtraLight",
-          "type": "fontWeights"
-        },
-        "Light": {
-          "value": "Light",
-          "type": "fontWeights"
-        },
-        "Regular": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "Medium": {
-          "value": "Medium",
-          "type": "fontWeights"
-        },
-        "Bold": {
-          "value": "Bold",
-          "type": "fontWeights"
-        },
-        "Heavy": {
-          "value": "Heavy",
-          "type": "fontWeights"
-        }
+      "Thin": {
+        "value": "Thin",
+        "type": "fontWeights"
+      },
+      "ExtraLight": {
+        "value": "ExtraLight",
+        "type": "fontWeights"
+      },
+      "Light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
+      "Regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "Medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "Bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "Heavy": {
+        "value": "Heavy",
+        "type": "fontWeights"
       }
     },
     "font-size": {
