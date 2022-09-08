@@ -426,11 +426,7 @@
     },
     "font-family": {
       "default": {
-        "value": "CiscoSansTT Light",
-        "type": "fontFamilies"
-      },
-      "bold": {
-        "value": "CiscoSansTT Medium",
+        "value": "CiscoSansTT",
         "type": "fontFamilies"
       }
     },
