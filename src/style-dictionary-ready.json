@@ -6,7 +6,7 @@
     }
   },
   "current-version": {
-    "value": "2.1.5-beta",
+    "value": "2.1.7-beta",
     "type": "other"
   },
   "root": {
@@ -310,11 +310,13 @@
   "border-width": {
     "regular": {
       "value": "1px",
-      "type": "borderWidth"
+      "type": "borderWidth",
+      "description": "Attention Figma users: a stroke must be set first on an object to apply this token"
     },
     "thick": {
       "value": "2px",
-      "type": "borderWidth"
+      "type": "borderWidth",
+      "description": "Attention Figma users: a stroke must be set first on an object to apply this token"
     }
   },
   "radius": {
@@ -353,7 +355,8 @@
         "color": "#1b1c1d12",
         "type": "dropShadow"
       },
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Attention Figma users: use the included Figma styles to apply box shadows"
     },
     "md": {
       "value": {
@@ -364,7 +367,8 @@
         "color": "#1b1c1d1a",
         "type": "dropShadow"
       },
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Attention Figma users: use the included Figma styles to apply box shadows"
     },
     "lg": {
       "value": {
@@ -375,7 +379,8 @@
         "color": "#1b1c1d1a",
         "type": "dropShadow"
       },
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Attention Figma users: use the included Figma styles to apply box shadows"
     }
   },
   "z-index": {
@@ -426,11 +431,11 @@
   },
   "font-family": {
     "default": {
-      "value": "CiscoSans Light",
+      "value": "CiscoSansTT Light",
       "type": "fontFamilies"
     },
     "bold": {
-      "value": "CiscoSans Medium",
+      "value": "CiscoSansTT Medium",
       "type": "fontFamilies"
     }
   },
@@ -461,6 +466,34 @@
     },
     "700": {
       "value": 700,
+      "type": "fontWeights"
+    },
+    "Thin": {
+      "value": "Thin",
+      "type": "fontWeights"
+    },
+    "ExtraLight": {
+      "value": "ExtraLight",
+      "type": "fontWeights"
+    },
+    "Light": {
+      "value": "Light",
+      "type": "fontWeights"
+    },
+    "Regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "Medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "Bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "Heavy": {
+      "value": "Heavy",
       "type": "fontWeights"
     }
   },
@@ -531,39 +564,39 @@
   },
   "line-height": {
     "10": {
-      "value": 1.6,
+      "value": "16px",
       "type": "lineHeights"
     },
     "20": {
-      "value": 2,
+      "value": "20px",
       "type": "lineHeights"
     },
     "30": {
-      "value": 2.4,
+      "value": "24px",
       "type": "lineHeights"
     },
     "40": {
-      "value": 2.8,
+      "value": "28px",
       "type": "lineHeights"
     },
     "50": {
-      "value": 3.2,
+      "value": "32px",
       "type": "lineHeights"
     },
     "60": {
-      "value": 4,
+      "value": "40px",
       "type": "lineHeights"
     },
     "70": {
-      "value": 4.8,
+      "value": "48px",
       "type": "lineHeights"
     },
     "80": {
-      "value": 6.2,
+      "value": "62px",
       "type": "lineHeights"
     },
     "90": {
-      "value": 7.7,
+      "value": "77px",
       "type": "lineHeights"
     }
   },
@@ -600,6 +633,10 @@
     }
   },
   "breakpoint": {
+    "xs": {
+      "value": "320px",
+      "type": "sizing"
+    },
     "sm": {
       "value": "600px",
       "type": "sizing"
@@ -616,35 +653,42 @@
   "grid": {
     "total-columns": {
       "value": 12,
-      "type": "other"
+      "type": "other",
+      "description": "Attention Figma users: use Layout Grid Styles, not these token values"
     }
   },
   "grid-margin": {
     "xs": {
       "value": "{size.50}",
-      "type": "sizing"
+      "type": "sizing",
+      "description": "Attention Figma users: use Layout Grid Styles, not these token values"
     },
     "sm": {
       "value": "{size.120}",
-      "type": "sizing"
+      "type": "sizing",
+      "description": "Attention Figma users: use Layout Grid Styles, not these token values"
     },
     "md": {
       "value": "{size.160}",
-      "type": "sizing"
+      "type": "sizing",
+      "description": "Attention Figma users: use Layout Grid Styles, not these token values"
     },
     "lg": {
       "value": "{size.170}",
-      "type": "sizing"
+      "type": "sizing",
+      "description": "Attention Figma users: use Layout Grid Styles, not these token values"
     }
   },
   "grid-gap": {
     "tight": {
       "value": "{space.60}",
-      "type": "sizing"
+      "type": "sizing",
+      "description": "Attention Figma users: use Layout Grid Styles, not these token values"
     },
     "normal": {
       "value": "{size.70}",
-      "type": "sizing"
+      "type": "sizing",
+      "description": "Attention Figma users: use Layout Grid Styles, not these token values"
     }
   },
   "color": {
@@ -768,13 +812,17 @@
       "type": "color",
       "value": "{color.white}"
     },
-    "neutral-darker": {
+    "neutral-dark": {
       "type": "color",
       "value": "{color.gray-10}"
     },
-    "neutral-darkest": {
+    "neutral-darker": {
       "type": "color",
       "value": "{color.gray-20}"
+    },
+    "neutral-darkest": {
+      "type": "color",
+      "value": "{color.gray-40}"
     },
     "error": {
       "type": "color",
