@@ -305,11 +305,13 @@
     "border-width": {
       "regular": {
         "value": "1px",
-        "type": "borderWidth"
+        "type": "borderWidth",
+        "description": "Attention Figma users: a stroke must be set first on an object to apply this token"
       },
       "thick": {
         "value": "2px",
-        "type": "borderWidth"
+        "type": "borderWidth",
+        "description": "Attention Figma users: a stroke must be set first on an object to apply this token"
       }
     },
     "radius": {
@@ -348,7 +350,8 @@
           "color": "rgba(27, 28, 29, 0.07)",
           "type": "dropShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Attention Figma users: use the included Figma styles to apply box shadows"
       },
       "md": {
         "value": {
@@ -359,7 +362,8 @@
           "color": "rgba(27, 28, 29, 0.1)",
           "type": "dropShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Attention Figma users: use the included Figma styles to apply box shadows"
       },
       "lg": {
         "value": {
@@ -370,7 +374,8 @@
           "color": "rgba(27, 28, 29, 0.1)",
           "type": "dropShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Attention Figma users: use the included Figma styles to apply box shadows"
       }
     },
     "z-index": {
@@ -427,6 +432,14 @@
       "bold": {
         "value": "CiscoSans Medium",
         "type": "fontFamilies"
+      },
+      "default-TT": {
+        "value": "CiscoSansTT Light",
+        "type": "fontFamilies"
+      },
+      "bold-TT": {
+        "value": "CiscoSansTT Medium",
+        "type": "fontFamilies"
       }
     },
     "font-weight": {
@@ -457,6 +470,36 @@
       "700": {
         "value": "700",
         "type": "fontWeights"
+      },
+      "CiscoSansTT": {
+        "Thin": {
+          "value": "Thin",
+          "type": "fontWeights"
+        },
+        "Extra Light": {
+          "value": "ExtraLight",
+          "type": "fontWeights"
+        },
+        "Light": {
+          "value": "Light",
+          "type": "fontWeights"
+        },
+        "Regular": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "Medium": {
+          "value": "Medium",
+          "type": "fontWeights"
+        },
+        "Bold": {
+          "value": "Bold",
+          "type": "fontWeights"
+        },
+        "Heavy": {
+          "value": "Heavy",
+          "type": "fontWeights"
+        }
       }
     },
     "font-size": {
@@ -526,39 +569,39 @@
     },
     "line-height": {
       "10": {
-        "value": "1.6",
+        "value": "16px",
         "type": "lineHeights"
       },
       "20": {
-        "value": "2.0",
+        "value": "20px",
         "type": "lineHeights"
       },
       "30": {
-        "value": "2.4",
+        "value": "24px",
         "type": "lineHeights"
       },
       "40": {
-        "value": "2.8",
+        "value": "28px",
         "type": "lineHeights"
       },
       "50": {
-        "value": "3.2",
+        "value": "32px",
         "type": "lineHeights"
       },
       "60": {
-        "value": "4.0",
+        "value": "40px",
         "type": "lineHeights"
       },
       "70": {
-        "value": "4.8",
+        "value": "48px",
         "type": "lineHeights"
       },
       "80": {
-        "value": "6.2",
+        "value": "62px",
         "type": "lineHeights"
       },
       "90": {
-        "value": "7.7",
+        "value": "77px",
         "type": "lineHeights"
       }
     },
@@ -595,6 +638,10 @@
       }
     },
     "breakpoint": {
+      "xs": {
+        "value": "320px",
+        "type": "sizing"
+      },
       "sm": {
         "value": "600px",
         "type": "sizing"
