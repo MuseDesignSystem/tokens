@@ -1,7 +1,7 @@
 {
   "muse-core": {
     "current-version": {
-      "value": "2.1.8-beta",
+      "value": "2.1.9-beta",
       "type": "other"
     },
     "root": {
@@ -328,11 +328,11 @@
         "type": "borderRadius"
       },
       "30": {
-        "value": "16px",
+        "value": "24px",
         "type": "borderRadius"
       },
       "40": {
-        "value": "24px",
+        "value": "48px",
         "type": "borderRadius"
       },
       "circle": {

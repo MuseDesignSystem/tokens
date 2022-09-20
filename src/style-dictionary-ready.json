@@ -6,7 +6,7 @@
     }
   },
   "current-version": {
-    "value": "2.1.7-beta",
+    "value": "2.1.8-beta",
     "type": "other"
   },
   "root": {
@@ -431,11 +431,7 @@
   },
   "font-family": {
     "default": {
-      "value": "CiscoSansTT Light",
-      "type": "fontFamilies"
-    },
-    "bold": {
-      "value": "CiscoSansTT Medium",
+      "value": "CiscoSansTT",
       "type": "fontFamilies"
     }
   },
