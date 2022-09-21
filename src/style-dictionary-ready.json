@@ -933,9 +933,8 @@
       "value": "{color.purple-10}"
     },
     "success": {
-      "type:": "color",
-      "value": "{color.green}",
-      "type": "other"
+      "type": "color",
+      "value": "{color.green}"
     }
   },
   "composite-type": {
