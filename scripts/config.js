@@ -6,6 +6,7 @@ module.exports = {
     css: {
       transformGroup: `custom/css`,
       buildPath: `dist/`,
+      prefix: 'muse',
       files: [
         {
           destination: `tokens.css`,

@@ -14,6 +14,8 @@ const getCssVariableName = (token) => {
 
   if (token.type === 'color' && category !== 'color') {
     return `${prefix}-${token.type}-${category}-${type}`;
+  } else if (category === 'type-styles') {
+    return `${prefix}-typography-${type}-${token.name}`;
   } else {
     return `${prefix}-${category}-${type}`;
   }
@@ -118,7 +120,12 @@ const cssTransforms = [
 
 StyleDictionary.registerTransformGroup({
   name: `custom/css`,
-  transforms: [`attribute/cti`, `name/cti/customProperty`, ...cssTransforms],
+  transforms: [
+    `attribute/cti`,
+    `name/cti/customProperty`,
+    `name/cti/kebab`,
+    ...cssTransforms,
+  ],
 });
 
 StyleDictionary.registerTransformGroup({
