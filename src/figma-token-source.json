@@ -1,7 +1,7 @@
 {
   "muse-core": {
     "current-version": {
-      "value": "2.1.9-beta",
+      "value": "2.1.10-beta",
       "type": "other"
     },
     "root": {
@@ -926,6 +926,10 @@
       "link-visited-lighter": {
         "type": "color",
         "value": "{color.purple-10}"
+      },
+      "success": {
+        "type:": "color",
+        "value": "{color.green}"
       }
     },
     "composite-type": {
