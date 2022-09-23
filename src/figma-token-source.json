@@ -328,15 +328,15 @@
         "value": "4px",
         "type": "borderRadius"
       },
-      "40": {
+      "30": {
         "value": "8px",
         "type": "borderRadius"
       },
-      "60": {
+      "40": {
         "value": "24px",
         "type": "borderRadius"
       },
-      "80": {
+      "50": {
         "value": "48px",
         "type": "borderRadius"
       },
