@@ -6,7 +6,7 @@
     }
   },
   "current-version": {
-    "value": "2.1.10-beta",
+    "value": "2.3.0-beta",
     "type": "other"
   },
   "root": {
@@ -325,18 +325,23 @@
       "type": "borderRadius"
     },
     "10": {
+      "value": "2px",
+      "type": "borderRadius",
+      "description": "A very small border radius used for our badge & tag elements"
+    },
+    "20": {
       "value": "4px",
       "type": "borderRadius"
     },
-    "20": {
+    "40": {
       "value": "8px",
       "type": "borderRadius"
     },
-    "30": {
+    "60": {
       "value": "24px",
       "type": "borderRadius"
     },
-    "40": {
+    "80": {
       "value": "48px",
       "type": "borderRadius"
     },
@@ -763,8 +768,8 @@
       "type": "color"
     },
     "green": {
-      "value": "#2BA100",
-      "description": "A dark green",
+      "value": "#058103",
+      "description": "An accessible green, used sparingly",
       "type": "color"
     },
     "purple-10": {
@@ -877,6 +882,10 @@
     "error": {
       "type": "color",
       "value": "{color.red}"
+    },
+    "success": {
+      "type": "color",
+      "value": "{color.green}"
     }
   },
   "text": {
