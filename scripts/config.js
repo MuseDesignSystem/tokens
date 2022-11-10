@@ -1,5 +1,7 @@
 /* eslint-disable sort-keys */
 
+const figmaFilter = (token) => token.attributes.category !== 'figma';
+
 module.exports = {
   source: [`src/style-dictionary-ready.json`],
   platforms: {
@@ -11,6 +13,7 @@ module.exports = {
         {
           destination: `tokens.css`,
           format: `css/variables`,
+          filter: figmaFilter,
           options: {
             outputReferences: true,
             basePxFontSize: 10,
@@ -24,6 +27,7 @@ module.exports = {
       files: [
         {
           destination: `tokens-es6.js`,
+          filter: figmaFilter,
           format: `javascript/es6`,
         },
       ],
@@ -34,6 +38,7 @@ module.exports = {
       files: [
         {
           destination: `tokens.js`,
+          filter: figmaFilter,
           format: `javascript/module`,
         },
       ],
@@ -44,6 +49,7 @@ module.exports = {
       files: [
         {
           destination: `tokens.json`,
+          filter: figmaFilter,
           format: `json`,
         },
       ],
@@ -55,6 +61,7 @@ module.exports = {
         {
           destination: `tokens.scss`,
           format: `scss/variables`,
+          filter: figmaFilter,
           options: {
             outputReferences: true,
             basePxFontSize: 10,
