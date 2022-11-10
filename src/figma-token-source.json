@@ -464,33 +464,35 @@
         "value": "700",
         "type": "fontWeights"
       },
-      "Thin": {
-        "value": "Thin",
-        "type": "fontWeights"
-      },
-      "ExtraLight": {
-        "value": "ExtraLight",
-        "type": "fontWeights"
-      },
-      "Light": {
-        "value": "Light",
-        "type": "fontWeights"
-      },
-      "Regular": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "Medium": {
-        "value": "Medium",
-        "type": "fontWeights"
-      },
-      "Bold": {
-        "value": "Bold",
-        "type": "fontWeights"
-      },
-      "Heavy": {
-        "value": "Heavy",
-        "type": "fontWeights"
+      "figma": {
+        "Thin": {
+          "value": "Thin",
+          "type": "fontWeights"
+        },
+        "ExtraLight": {
+          "value": "ExtraLight",
+          "type": "fontWeights"
+        },
+        "Light": {
+          "value": "Light",
+          "type": "fontWeights"
+        },
+        "Regular": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "Medium": {
+          "value": "Medium",
+          "type": "fontWeights"
+        },
+        "Bold": {
+          "value": "Bold",
+          "type": "fontWeights"
+        },
+        "Heavy": {
+          "value": "Heavy",
+          "type": "fontWeights"
+        }
       }
     },
     "font-size": {
@@ -944,6 +946,8 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["muse-core"]
+    "tokenSetOrder": [
+      "muse-core"
+    ]
   }
 }
