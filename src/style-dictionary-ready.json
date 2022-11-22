@@ -6,7 +6,7 @@
     }
   },
   "current-version": {
-    "value": "2.3.2-beta",
+    "value": "2.4.0-beta",
     "type": "other"
   },
   "root": {
@@ -769,7 +769,12 @@
       "value": "#ffffffd9",
       "type": "color"
     },
-    "green": {
+    "green-10": {
+      "value": "#74BF4B",
+      "description": "A light green, to only be used on High Emphasis (dark) backgrounds",
+      "type": "color"
+    },
+    "green-20": {
       "value": "#058103",
       "description": "An accessible green, used sparingly",
       "type": "color"
@@ -784,8 +789,13 @@
       "description": "A dark purple, used only for visited links",
       "type": "color"
     },
-    "red": {
-      "value": "#E3241B",
+    "red-10": {
+      "value": "#FF4C44",
+      "description": "A light red, to be used only on High Emphasis (dark) backgrounds",
+      "type": "color"
+    },
+    "red-20": {
+      "value": "#DB231A",
       "description": "A rich and vibrant red, like a stop light",
       "type": "color"
     }
@@ -829,11 +839,19 @@
     },
     "error": {
       "type": "color",
-      "value": "{color.red}"
+      "value": "{color.red-20}"
+    },
+    "error-lighter": {
+      "type": "color",
+      "value": "{color.red-10}"
     },
     "success": {
       "type": "color",
-      "value": "{color.green}"
+      "value": "{color.green-20}"
+    },
+    "success-lighter": {
+      "type": "color",
+      "value": "{color.green-10}"
     }
   },
   "border": {
@@ -883,11 +901,19 @@
     },
     "error": {
       "type": "color",
-      "value": "{color.red}"
+      "value": "{color.red-20}"
+    },
+    "error-light": {
+      "type": "color",
+      "value": "{color.red-10}"
     },
     "success": {
       "type": "color",
-      "value": "{color.green}"
+      "value": "{color.green-20}"
+    },
+    "success-light": {
+      "type": "color",
+      "value": "{color.green-10}"
     }
   },
   "text": {
@@ -943,9 +969,21 @@
       "type": "color",
       "value": "{color.purple-10}"
     },
+    "error": {
+      "type": "color",
+      "value": "{color.red-20}"
+    },
+    "error-lighter": {
+      "type": "color",
+      "value": "{color.red-10}"
+    },
     "success": {
       "type": "color",
-      "value": "{color.green}"
+      "value": "{color.green-20}"
+    },
+    "success-lighter": {
+      "type": "color",
+      "value": "{color.green-10}"
     }
   }
 }
