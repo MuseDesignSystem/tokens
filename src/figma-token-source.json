@@ -1,7 +1,7 @@
 {
   "muse-core": {
     "current-version": {
-      "value": "2.5.0-beta",
+      "value": "2.5.1-beta",
       "type": "other"
     },
     "root": {
@@ -774,6 +774,16 @@
         "description": "An accessible green, used sparingly",
         "type": "color"
       },
+      "orange-10": {
+        "value": "#FBAB2C",
+        "description": "Alight red, to be used only on High Emphasis (dark) backgrounds",
+        "type": "color"
+      },
+      "orange-20": {
+        "value": "#D27700",
+        "description": "An accessible darker orange, used sparingly",
+        "type": "color"
+      },
       "purple-10": {
         "value": "#B279E6",
         "description": "A light purple, used only for visited links",
@@ -847,6 +857,14 @@
       "success-lighter": {
         "type": "color",
         "value": "{color.green-10}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.orange-20}"
+      },
+      "warning-lighter": {
+        "type": "color",
+        "value": "{color.orange-10}"
       }
     },
     "border": {
@@ -909,6 +927,14 @@
       "success-light": {
         "type": "color",
         "value": "{color.green-10}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.orange-20}"
+      },
+      "warning-lighter": {
+        "type": "color",
+        "value": "{color.orange-10}"
       }
     },
     "text": {

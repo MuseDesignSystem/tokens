@@ -6,7 +6,7 @@
     }
   },
   "current-version": {
-    "value": "2.4.0-beta",
+    "value": "2.5.0-beta",
     "type": "other"
   },
   "root": {
@@ -779,6 +779,16 @@
       "description": "An accessible green, used sparingly",
       "type": "color"
     },
+    "orange-10": {
+      "value": "#FBAB2C",
+      "description": "An accessible light orange, used sparingly",
+      "type": "color"
+    },
+    "orange-20": {
+      "value": "#D27700",
+      "description": "An accessible darker orange, used sparingly",
+      "type": "color"
+    },
     "purple-10": {
       "value": "#B279E6",
       "description": "A light purple, used only for visited links",
@@ -852,6 +862,14 @@
     "success-lighter": {
       "type": "color",
       "value": "{color.green-10}"
+    },
+    "warning": {
+      "type": "color",
+      "value": "{color.orange-20}"
+    },
+    "warning-lighter": {
+      "type": "color",
+      "value": "{color.orange-10}"
     }
   },
   "border": {
@@ -914,6 +932,14 @@
     "success-light": {
       "type": "color",
       "value": "{color.green-10}"
+    },
+    "warning": {
+      "type": "color",
+      "value": "{color.orange-20}"
+    },
+    "warning-lighter": {
+      "type": "color",
+      "value": "{color.orange-10}"
     }
   },
   "text": {
