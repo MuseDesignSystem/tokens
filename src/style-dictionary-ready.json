@@ -6,7 +6,7 @@
     }
   },
   "current-version": {
-    "value": "2.5.0-beta",
+    "value": "2.5.1-beta",
     "type": "other"
   },
   "root": {
@@ -781,7 +781,7 @@
     },
     "orange-10": {
       "value": "#FBAB2C",
-      "description": "An accessible light orange, used sparingly",
+      "description": "Alight red, to be used only on High Emphasis (dark) backgrounds",
       "type": "color"
     },
     "orange-20": {
