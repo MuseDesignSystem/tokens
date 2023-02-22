@@ -1,7 +1,7 @@
 {
   "muse-core": {
     "current-version": {
-      "value": "2.5.1-beta",
+      "value": "2.5.2-beta",
       "type": "other"
     },
     "root": {
@@ -1018,8 +1018,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "muse-core"
-    ]
+    "tokenSetOrder": ["muse-core"]
   }
 }

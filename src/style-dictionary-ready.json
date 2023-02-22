@@ -6,7 +6,7 @@
     }
   },
   "current-version": {
-    "value": "2.5.1-beta",
+    "value": "2.5.2-beta",
     "type": "other"
   },
   "root": {
@@ -846,6 +846,14 @@
     "neutral-darkest": {
       "type": "color",
       "value": "{color.gray-40}"
+    },
+    "inverse-weak": {
+      "type": "color",
+      "value": "{color.white-alpha-50}"
+    },
+    "inverse-weakest": {
+      "type": "color",
+      "value": "{color.white-alpha-25}"
     },
     "error": {
       "type": "color",
