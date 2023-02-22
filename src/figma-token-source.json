@@ -842,6 +842,14 @@
         "type": "color",
         "value": "{color.gray-40}"
       },
+      "inverse-weak": {
+        "type": "color",
+        "value": "{color.white-alpha-50}"
+      },
+      "inverse-weakest": {
+        "type": "color",
+        "value": "{color.white-alpha-25}"
+      },
       "error": {
         "type": "color",
         "value": "{color.red-20}"
@@ -1010,6 +1018,8 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": ["muse-core"]
+    "tokenSetOrder": [
+      "muse-core"
+    ]
   }
 }
