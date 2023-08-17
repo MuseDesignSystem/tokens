@@ -346,31 +346,19 @@
       }
     },
     "elevation": {
-      "sm": {
+      "default": {
         "value": {
           "x": "0",
-          "y": "4",
+          "y": "2",
           "blur": "16",
           "spread": "0",
-          "color": "rgba(27, 28, 29, 0.07)",
+          "color": "rgba(27, 28, 29, 0.08)",
           "type": "dropShadow"
         },
         "type": "boxShadow",
         "description": "Attention Figma users: use the included Figma styles to apply box shadows"
       },
-      "md": {
-        "value": {
-          "x": "0",
-          "y": "8",
-          "blur": "32",
-          "spread": "0",
-          "color": "rgba(27, 28, 29, 0.1)",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "Attention Figma users: use the included Figma styles to apply box shadows"
-      },
-      "lg": {
+      "high": {
         "value": {
           "x": "0",
           "y": "12",
