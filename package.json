@@ -8,7 +8,7 @@
     "type": "git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "Muse Design System Team",
   "license": "UNLICENSED",
