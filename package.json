@@ -12,7 +12,6 @@
   },
   "author": "Muse Design System Team",
   "license": "UNLICENSED",
-  "private": true,
   "scripts": {
     "build": "npm run clean && npm run token-transform && node scripts/build.js",
     "clean:dependencies": "rimraf \"node_modules\"",
