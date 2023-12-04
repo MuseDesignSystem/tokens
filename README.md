@@ -2,6 +2,18 @@
 
 @musedesignsystem/tokens
 
+# First important steps!
+
+You'll need to create a `.npmrc` file to point to the registry where our package is contained.
+
+That file should contain:
+
+```
+@musedesignsystem:registry=https://npm.pkg.github.com
+```
+
+This file can live in your user root, or the root of the project.
+
 ## Install
 
 ```sh
