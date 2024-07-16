@@ -1,7 +1,7 @@
 {
   "muse-core": {
     "current-version": {
-      "value": "2.5.3-beta",
+      "value": "2.5.4-beta",
       "type": "other"
     },
     "root": {
@@ -419,7 +419,7 @@
     },
     "font-family": {
       "default": {
-        "value": "CiscoSansTT",
+        "value": "\"CiscoSans\", \"CiscoSansTT\", sans-serif",
         "type": "fontFamilies"
       }
     },
@@ -791,6 +791,26 @@
         "value": "#DB231A",
         "description": "A rich and vibrant red, like a stop light",
         "type": "color"
+      },
+      "light-blue-10": {
+        "description": "Used only for semantic Information backgrounds",
+        "value": "#f2f8fd",
+        "type": "color"
+      },
+      "light-red-10": {
+        "description": "Used only for semantic error backgrounds",
+        "value": "#fdf4f4",
+        "type": "color"
+      },
+      "light-green-10": {
+        "description": "Used only for semantic success backgrounds",
+        "value": "#f3f9f2",
+        "type": "color"
+      },
+      "light-yellow-10": {
+        "description": "Used only for semantic warning backgrounds",
+        "value": "#fdf8f2",
+        "type": "color"
       }
     },
     "background": {
@@ -825,6 +845,10 @@
       "neutral-darker": {
         "type": "color",
         "value": "{color.gray-20}"
+      },
+      "neutral-darker-2": {
+        "type": "color",
+        "value": "{color.gray-30}"
       },
       "neutral-darkest": {
         "type": "color",
@@ -861,6 +885,22 @@
       "warning-lighter": {
         "type": "color",
         "value": "{color.orange-10}"
+      },
+      "error-weak": {
+        "value": "#fdf4f4",
+        "type": "color"
+      },
+      "success-weak": {
+        "value": "#f3f9f2",
+        "type": "color"
+      },
+      "warning-weak": {
+        "value": "#fdf8f2",
+        "type": "color"
+      },
+      "information-weak": {
+        "value": "#f2f8fd",
+        "type": "color"
       }
     },
     "border": {
@@ -891,6 +931,10 @@
       "default-darker": {
         "type": "color",
         "value": "{color.gray-40}"
+      },
+      "default-darkest": {
+        "type": "color",
+        "value": "{color.gray-50}"
       },
       "inverse": {
         "type": "color",
