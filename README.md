@@ -1,3 +1,6 @@
+> This repo is now archived. Please reference the Muse monorepo for all updated code: https://github.com/MuseDesignSystem/muse/
+
+
 # Muse Design System Tokens
 
 @musedesignsystem/tokens
